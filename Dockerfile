@@ -12,4 +12,4 @@ RUN apt-get upgrade
 COPY . .
 
 # CMD ["python", "stationlocation.py", "timestamp", "iss_position", "message"]
-CMD ["python", "my_code/stationlocation.py"]
+CMD ["python", "stationlocation.py"]
